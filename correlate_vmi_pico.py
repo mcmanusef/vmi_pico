@@ -4,7 +4,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
 import h5py
-matplotlib.use('Qt5Agg')
+# matplotlib.use('Qt5Agg')
 #set colormap
 # custom_jet = plt.cm.colors.ListedColormap([[1, 1, 1, 1]] + plt.cm.jet(np.linspace(0, 1, 255)).tolist())
 
