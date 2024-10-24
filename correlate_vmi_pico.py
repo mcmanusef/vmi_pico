@@ -381,7 +381,7 @@ if __name__ == '__main__':
     timepix_file=r"/mnt/NAS/ctgroup/Edward/DATA/VMI/20240730/firstNanoData_06_30min.h5"
     pico_file=r"/mnt/NAS/ctgroup/Edward/DATA/VMI/20240730/firstNanoData_Vth600mV_30min.h5"
     out_file=r"/mnt/NAS/ctgroup/Edward/DATA/VMI/20240730/firstNanoData_Vth600mV_30min_combined.h5"
-    main(timepix_file=timepix_file,pico_file=pico_file,out_file=out_file,max_diff=2e10)
+    main(timepix_file=timepix_file,pico_file=pico_file,out_file=out_file,max_diff=2e20)
 
     # with h5py.File(out_file,'r') as f:
     #     xs=[f[k]['x'][()] for k in f.keys()]
